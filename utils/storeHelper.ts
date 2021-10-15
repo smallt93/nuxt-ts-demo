@@ -1,0 +1,1 @@
+export type ActionMap<A> = (payload: A) => Promise<any> | void
